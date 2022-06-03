@@ -1,0 +1,18 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.nav {
+	margin: 30px;
+	font-size: 18px;
+}
+
+.nav a{
+	margin: 8px;
+	text-decoration: none;
+	color: #4b1877;
+	font-weight: bold;
+}
+
