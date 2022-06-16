@@ -28,16 +28,58 @@
 .explaining-container {
 	display: flex;
 	flex-direction: row;
-	margin: 150px 150px 0 150px;
+	align-items: center;
+	margin-top: 150px;
+	background-color: #DFDFDF;
+	padding: 45px;
+	/* border-radius: 15px; */
 }
 
 .explaining-container .explaining-text {
 	font-size: 16px;
-	color: #FFF;
+	color: #000;
+	margin-left: 22px;
 }
 
-.explaining-container .explaining-text .explaining-img {
+.explaining-container .explaining-img {
 	background-color: #000;
 	width: 150px;
-	height: 100px;
+	height: 250px;
+	border-radius: 4px;
+}
+
+.contact-me {
+	padding: 25px;
+	margin-top: 15px;
+}
+
+.contact-me .contact-title {
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-me .contacts {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-me .contacts .contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 50px;
+	text-decoration: none;
+	color: #FFF;
+	align-self: center;
+}
+
+.contact-me .contacts .contact .icon{
+	width: 80px;
+	height: 80px;
+	color: #FFF;;
 }
