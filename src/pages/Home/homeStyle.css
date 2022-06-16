@@ -1,3 +1,7 @@
+.homeContainer {
+	background-color: #03030F;
+}
+
 
 .img-display {
 	display: flex;
@@ -21,3 +25,19 @@
 	margin-left: 50px;
 }
 
+.explaining-container {
+	display: flex;
+	flex-direction: row;
+	margin: 150px 150px 0 150px;
+}
+
+.explaining-container .explaining-text {
+	font-size: 16px;
+	color: #FFF;
+}
+
+.explaining-container .explaining-text .explaining-img {
+	background-color: #000;
+	width: 150px;
+	height: 100px;
+}
