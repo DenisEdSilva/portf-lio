@@ -13,7 +13,7 @@
 }
 
 .apresentation-text {
-	color: #6b1ab1;
+	color: #FFF;
 	font-size: 16px;
 	font-style: italic;
 }
@@ -48,13 +48,50 @@
 	border-radius: 4px;
 }
 
-.contact-me {
+.stack-container {
 	padding: 25px;
 	margin-top: 15px;
 }
 
-.contact-me .contact-title {
+.stack-container .stack-title {
 	color: #FFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.stack-container .stacks-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.stack-container .stacks-icons .stack {
+	font-size: 16px;
+	color: #FFF;
+	margin: 8px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.stack-container .stacks-icons .icon {
+	color: #FFF;
+	width: 60px;
+	height: 60px;
+}
+
+.contact-me {
+	padding: 25px;
+	margin-top: 15px;
+	background-color: #DFDFDF;
+}
+
+.contact-me .contact-title {
+	color: #000;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -74,12 +111,22 @@
 	justify-content: center;
 	margin: 50px;
 	text-decoration: none;
-	color: #FFF;
+	color: #000;
 	align-self: center;
+	border-bottom: 3px solid #000;
+	padding: 5px;
+
+	transition: all 0.4s ease-in-out;
+}
+
+.contact-me .contacts .contact:hover {
+	margin-top: 35px;
+
+	transition: all 0.4s ease-in-out;
 }
 
 .contact-me .contacts .contact .icon{
 	width: 80px;
 	height: 80px;
-	color: #FFF;;
+	color: #000;
 }

@@ -13,7 +13,7 @@ import Projects from './pages/Projects';
 export default function AppRoutes() {
 	return (
 		<Router>
-			<Header />
+			{/* <Header /> */}
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/studys" element={<Studys />} />
